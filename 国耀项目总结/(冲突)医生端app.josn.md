@@ -1,0 +1,58 @@
+### 医生端app.json
+
+```
+ //慢病续药续方列表  "pages/index/110_continPres/110_continPres",
+ //电子中药开方    "pages/index/110_continPres/141_elecChinese_continue/141_elecChinese_continue",  
+ //电子西药开方    "pages/index/110_continPres/111_origPres_eletr/111_origPres_eletr"
+ //纸质中药开方    "pages/index/110_continPres/112_origPres_capa/112_origPres_capa",
+ //纸质西药开方    "pages/index/110_continPres/112_origPres_paper/112_origPres_paper",
+ //纸质中药作废重开和电子签名    "pages/index/110_continPres/111_Preview_electronic_prescription/111_Preview_electronic_prescription"
+ //纸质西药作废重开和电子签名    "pages/index/110_continPres/111_Preview_paper_prescription/111_Preview_paper_prescription",
+ //电子西药签名电子    "pages/index/110_continPres/113_confirmPres_eletr/113_confirmPres_eletr",
+ //电子中药电子签名    "pages/index/110_continPres/141_confirmPres_zn/141_confirmPres_zn",
+ //电子西药确定开方    "pages/index/110_continPres/113_sigNature_ws/113_sigNature_eletr"
+ //纸质中药确定开方    "pages/index/110_continPres/141_sigNature_zn/141_sigNature_zn",
+ //纸质中药确定开方    "pages/index/110_continPres/121_confirmPres_zn/121_confirmPres_zn",
+ //纸质西药确定开方 添加单个药品 和组合的页面  "pages/index/110_continPres/114_writePres/114_writePres", 
+ //纸质和电子中药下一位 "pages/index/110_continPres/141_showPres_zn/141_showPres_zn", 
+ //电子西药下一位        "pages/index/110_continPres/140_showPres_we/140_showPres_we"
+ //纸质西药下一位        "pages/index/110_continPres/140_showPres_wn/140_showPres_wn"
+ //医生端个人信息管理    "pages/my/010_myInfor/010_myInfor",
+ //历史处方单            "pages/index/110_continPres/130_shopPres/130_shopPres",
+ //纸质中药继续添加 编辑管理   "pages/index/110_continPres/116_confirmPres_recipe/116_confirmPres_recipe",
+ //纸质中药添加单个药品和组合  "pages/index/110_continPres/120_writePres_zn/120_writePres_zn",
+ //纸质西药添加组合弹窗   "pages/index/110_continPres/116_addCombination/116_addCombination",
+ //西药添加组合弹窗   "pages/index/110_continPres/115_addCombDrug/115_addCombDrug",
+ //驳回处方列表          "pages/index/110_ reject/110_ reject",
+ //驳回原因 作废重开     "pages/index/110_ reject/111_reopen/111_reopen",
+ //添加擅长  "pages/my/010_addGood/010_addGood",   
+ //云诊所信息 "pages/index/200_cloudClinic/203_cloudinformation/203_cloudinformation",  
+ //云诊所管理包含收入  "pages/index/200_cloudClinic/203_climanagement/203_climanagement", 
+ //病历接诊中     "pages/index/200_cloudClinic/203_medicalRecords/203_medicalRecords",  
+ //添加执业经历   "pages/my/010_myInfor/add_newpractice/add_newpractice",  
+ //引入模板       "pages/index/110_continPres/117_referTemplate/117_referTemplate", 
+ //患者登记       "pages/index/200_cloudClinic/201_patientRegistration/201_patientRegistration",
+ //病历填写处方单     "pages/index/200_cloudClinic/205_filloutPresform/205_filloutPresform",
+ //陈医生云诊所       "pages/index/200_cloudClinic/200_cloudClinic",
+ //病历详情           "pages/index/200_cloudClinic/204_checkRecords/204_checkRecords",
+ //搜索病历 可取消 可查询      "pages/index/200_cloudClinic/203_searchRecords/203_searchRecords",
+ //开通云诊所     "pages/index/200_cloudClinic/210_OpencloudClinic/210_OpencloudClinic",
+ //患者登记表     "pages/index/200_cloudClinic/202_patientregform/202_patientregform",
+ //提交审核资料   "pages/index/200_cloudClinic/210_SubmitauditInformation/210_SubmitauditInformation",
+ //资料上传成功 等待审核   "pages/index/200_cloudClinic/200_uploadedSuccessfully/200_uploadedSuccessfully",
+ //云诊所管理    "pages/index/200_cloudClinic/212_cloudClinic_setting/212_cloudClinic_setting",
+ //诊所信息      "pages/index/200_cloudClinic/210_cloudClinic__mang/210_cloudClinic__mang",
+ //修改手机号    "pages/login_signUp/modifyInitialPhonenumber/modifyInitialPhonenumber", 
+ //添加执业经历          "pages/my/010_myInfor/011_Practice/011_Practice",
+ //搜索药品              "pages/index/110_continPres/150_searchDrug/150_searchDrug",
+ //药品详情              "pages/index/110_continPres/151_drugDetail/151_drugDetail",
+ //医生端设置            "pages/my/setting/setting",
+ //授权页面              "pages/login_signUp/wxlogin/wxlogin",
+ //入驻申请              "pages/login_signUp/enter/enter",
+ //找回密码              "pages/login_signUp/findPassword/findPassword",
+ //个人中心              "pages/my/my",
+ //上传资格证            "pages/upDownFileModule/uploadQualifi/uploadQualifi",
+ //修改初始密码                "pages/login_signUp/modifyInitialPassword/modifyInitialPassword",
+ //云诊所管理                  "pages/clinicManage/home/home",
+
+
